@@ -1,0 +1,106 @@
+.title{
+    width: 100%;
+    font-size: 36px;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+.theme-title {
+    width: 100%;
+    font-size: 36px;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.display-none{
+    display: none;
+}
+
+.title .main-title, .theme-title .main-title {
+    display: flex;
+    align-items: flex-end;
+}
+.main-title{
+    cursor: pointer;
+}
+
+.title .main-title :first-child, .theme-title .main-title :first-child {
+    font-weight: 500;
+}
+
+.title .main-title :nth-child(2) {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.theme-title .main-title :nth-child(2) {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: none;
+    color: rgba(255, 255, 255, 0.54);
+}
+
+.filters, .theme-filters {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.filters label, .theme-filters label {
+    text-transform: uppercase;
+    font-weight: none;
+    margin-right: 10px;
+}
+
+.filters select {
+    width: 150px;
+    padding: 5px 0;
+    background-color: #eee;
+    color: #000;
+}
+
+.filters .gallery,
+.filters .list {
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.filters .gallery:hover {
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.filters .list:hover{
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.selected{
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+@media(max-width:750px) {
+    .title, .theme-title {
+        padding-bottom: 5px;
+    }
+
+    .title .main-title :first-child, .theme-title .main-title :first-child {
+        font-size: 25px;
+    }
+
+    .title .main-title :nth-child(2), .theme-title .main-title :nth-child(2),
+    .filters label, .theme-filters label {
+        display: none;
+    }
+}

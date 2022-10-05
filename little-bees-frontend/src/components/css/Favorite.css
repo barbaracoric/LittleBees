@@ -1,0 +1,19 @@
+.card-main {
+    text-align: center;
+    padding-top: 20px;
+    color: #000;
+}
+
+.theme-card-main {
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.title-column .game-name a{
+    color: #000;
+}
+
+.theme-title-column .game-name a{
+    color: #fff;
+}

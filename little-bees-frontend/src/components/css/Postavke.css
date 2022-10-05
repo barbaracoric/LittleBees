@@ -1,0 +1,213 @@
+.profile-container {
+    background-color: #ddd;
+    margin-top: 20px;
+    padding: 30px 0;
+    border-radius: 20px;
+}
+
+.theme-profile-container {
+    background-color: #222;
+    margin-top: 20px;
+    padding: 30px 0;
+    border-radius: 20px;
+}
+
+.profile-container .profile-update, .theme-profile-container .profile-update {
+    display: flex;
+}
+
+.profile-container .profile-user,
+.profile-container .profile-pass {
+    background-color: #eee;
+    margin: auto;
+    width: 40%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.theme-profile-container .profile-user,
+.theme-profile-container .profile-pass {
+    background-color: #111;
+    margin: auto;
+    width: 40%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.profile-container .profile-user span,
+.profile-container .profile-pass span {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.theme-profile-container .profile-user span,
+.theme-profile-container .profile-pass span {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.profile-container .profile-part {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.theme-profile-container .profile-part {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.profile-container .profile-part input {
+    width: 100%;
+    padding: 9px 15px;
+    background-color: #f8f8f8;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 2px;
+    color: #000;
+}
+
+.theme-profile-container .profile-part input {
+    width: 100%;
+    padding: 9px 15px;
+    background-color: #181818;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 2px;
+    color: #fff;
+}
+
+.profile-container .profile-part .below {
+    color: #969696;
+    font-weight: none;
+    font-size: 10px;
+    text-transform: none;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.theme-profile-container .profile-part .below {
+    color: #696969;
+    font-weight: none;
+    font-size: 10px;
+    text-transform: none;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.profile-container .profile-user button,
+.profile-container .profile-pass button {
+    border: none;
+    outline: none;
+    background: #333;
+    padding: 10px 0;
+    display: block;
+    cursor: pointer;
+    width: 165px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 0;
+}
+
+.theme-profile-container .profile-user button,
+.theme-profile-container .profile-pass button {
+    border: none;
+    outline: none;
+    background: #ccc;
+    padding: 10px 0;
+    display: block;
+    cursor: pointer;
+    width: 165px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 0;
+}
+
+.profile-container .current, .theme-profile-container .current {
+    margin-top: 20px;
+}
+
+.profile-container .del-btn button {
+    border: none;
+    outline: none;
+    background: #d25112;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 0;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.theme-profile-container .del-btn button {
+    border: none;
+    outline: none;
+    background: #d25112;
+    color: #000;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 0;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+@media(max-width: 750px) {
+    .profile-container .profile-update, .theme-profile-container .profile-update {
+        flex-direction: column;
+    }
+
+    .profile-container .profile-user, .theme-profile-container .profile-user {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .profile-container .profile-pass, .theme-profile-container .profile-pass {
+    width: 90%;
+    }
+
+    .profile-container .profile-user button, .theme-profile-container .profile-user button,
+    .profile-container .profile-pass button, .theme-profile-container .profile-pass button {
+        width: 100%;
+    }
+
+    .profile-container .del-btn button, .theme-profile-container .del-btn button {
+        width: 80%;
+    }
+}

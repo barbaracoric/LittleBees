@@ -1,0 +1,269 @@
+.register-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    border: 1px solid rgba(0,0,0,.12);
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 6px;
+    box-shadow: 0 0 30px #c8c8c8;
+    text-align: left;
+}
+
+.theme-register-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    border: 1px solid rgba(255,255,255,.12);
+    background-color: #111;
+    padding: 30px 50px;
+    border-radius: 6px;
+    box-shadow: 0 0 30px #373737;
+    text-align: left;
+}
+
+.flex-top,
+.flex-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.mail,
+.pass {
+    width: 245px;
+    margin-right: 10px;
+}
+
+.usernamee,
+.con-pass {
+    width: 243px;
+}
+
+.register-section .mail input, .theme-register-section .mail input {
+    margin-bottom: 10px;
+}
+
+.register-section h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.theme-register-section h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.register-section p {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.theme-register-section p{
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.register-section input {
+    width: 100%;
+    padding: 9px 15px;
+    background-color: #f8f8f8;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 2px;
+    color: #000;
+}
+
+.theme-register-section input {
+    width: 100%;
+    padding: 9px 15px;
+    background-color: #181818;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 2px;
+    color: #fff;
+}
+
+.register-section .below {
+    color: #969696;
+    font-weight: none;
+    font-size: 10px;
+    text-transform: none;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.theme-register-section .below {
+    color: #696969;
+    font-weight: none;
+    font-size: 10px;
+    text-transform: none;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.register-section button {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #d25112;
+    color: #fff;
+    padding: 10px 0;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+.theme-register-section button {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #d25112;
+    color: #000;
+    padding: 10px 0;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+.register-section a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.theme-register-section a {
+    text-decoration: none;
+    color: #000;
+}
+
+.register-section button:hover, .theme-register-section button:hover,
+.register-section .log:hover, .theme-register-section .log:hover {
+    opacity: 0.9;
+}
+
+.register-section .already {
+    margin: 40px 0 10px 0;
+    position: relative;
+    color: #000;
+}
+
+.theme-register-section .already {
+    margin: 40px 0 10px 0;
+    position: relative;
+    color: #fff;
+}
+
+.register-section .already p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3px 7px;
+    width: fit-content;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+.theme-register-section .already p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3px 7px;
+    width: fit-content;
+    background-color: #111;
+    letter-spacing: 1px;
+}
+
+.register-section .already :first-child {
+    position: absolute;
+    width: 100%;
+    height: 0.1px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c8c8c8;
+}
+
+.theme-register-section .already :first-child {
+    position: absolute;
+    width: 100%;
+    height: 0.1px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #373737;
+}
+
+.register-section .log {
+    color: #fff;
+    background: #333;
+    border: 1px solid #333;
+    margin-top: 65px;
+    letter-spacing: 1px;
+}
+
+.theme-register-section .log {
+    color: #000;
+    background: #ccc;
+    border: 1px solid #ccc;
+    margin-top: 65px;
+    letter-spacing: 1px;
+}
+
+.register-section a i {
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+}
+
+.theme-register-section a i {
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.register-section a i:hover, .theme-register-section a i:hover {
+    opacity: 0.8;
+}
+
+@media(max-width: 650px) {
+.register-section, .theme-register-section {
+    width: 500px;
+    padding: 30px;
+}
+
+.mail,
+.pass {
+    width: 215px;
+    margin-right: 10px;
+}
+
+.usernamee,
+.con-pass {
+    width: 213px;
+}
+}

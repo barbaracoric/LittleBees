@@ -1,0 +1,18 @@
+#psn {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+@media(max-width:740px){
+    #psn {
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:600px){
+    #psn {
+        justify-content: left;
+    }
+}

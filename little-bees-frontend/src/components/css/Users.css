@@ -1,0 +1,77 @@
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table .del,
+table .action {
+    width: 60px;
+}
+
+table .action-update {
+    width: 180px;
+}
+
+.action-update button {
+    font-size: 12px;
+    font-weight: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    background-color: #d25112;
+    color: #fff;
+    border: none;
+}
+
+.action-update button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.del button {
+    border: none;
+}
+
+table .emaill {
+    width: 30%;
+}
+
+
+tbody .left {
+    padding-left: 20px;
+    text-align: left;
+}
+
+tbody i {
+    color: #000;
+}
+
+tbody i:hover {
+    color: #d25112;
+    cursor: pointer;
+}
+
+thead td, tbody td {
+    height: 50px;
+}
+
+thead {
+    color: #fff;
+    background-color: #3367D6;
+    font-weight: 0;
+}
+
+.main-table:nth-child(even) {
+    background-color: #ddd;
+}
+
+.head-table {
+    margin-top: 30px;
+}
+
+.leftt {
+    text-align: left;
+    padding-left: 80px;
+}
+

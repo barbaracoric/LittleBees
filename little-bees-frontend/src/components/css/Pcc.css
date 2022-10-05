@@ -1,0 +1,310 @@
+:root {
+    --primary-color: #d25112;
+}
+
+#pc {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.flexrow{
+    flex-direction: row;
+}
+.flexcolumn{
+    flex-direction: column;
+}
+
+.card, .theme-card {
+    width: 176px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+.flexcolumn .card, .flexcolumn .theme-card {
+    width: 100%;
+    grid-gap: 1em;
+    margin-bottom: 30px;
+    padding-right: 2vw;
+    display: flex;
+    justify-content: space-between;
+    max-height: 236px;
+}
+
+.card ul, .theme-card ul {
+    list-style: none;
+}
+
+.card img, .theme-card img {
+    height: 236px;
+    width: 176px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #000;
+    opacity: 0.9;
+}
+
+.theme-card img:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #fff;
+    opacity: 0.9;
+}
+
+.card .game-name, .theme-card .game-name {
+    max-width: 176px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.card .game-name a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.theme-card .game-name a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.card .game-name a:hover, .theme-card .game-name a:hover{
+    text-decoration: underline;
+}
+
+.flexcolumn .title-column, .flexcolumn .theme-title-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+.flexcolumn .title-column .game-name, .flexcolumn .theme-title-column .game-name {
+    max-width: 100%;
+    max-height: 100px;
+    padding-bottom: 70px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.flexcolumn .title-column .game-name a {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: none;
+    color: #000;
+}
+
+.flexcolumn .theme-title-column .game-name a  {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: none;
+    color: #fff;
+}
+
+.flexcolumn .right-column .game_name, .flexcolumn .theme-right-column .game_name {
+    display: none;
+}
+
+.flexcolumn .title-column .content a {
+    text-transform: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.flexcolumn .theme-title-column .content a {
+    text-transform: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.flexcolumn .title-column .content, .flexcolumn .theme-title-column .content {
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card ul :nth-child(2), .theme-card ul :nth-child(2) {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.flexcolumn .right-column, .flexcolumn .theme-right-column {
+    display: flex;
+    flex-direction: column;
+    padding-top: 23px;
+}
+
+.flexcolumn .right-column button {
+    border: none;
+    outline: none;
+    background: #333;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 165px;
+}
+
+.flexcolumn .theme-right-column button {
+    border: none;
+    outline: none;
+    background: #ccc;
+    color: #000;
+    width: 100%;
+    padding: 10px 0;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 165px;
+}
+
+.flexcolumn .right-column button:hover, .flexcolumn .theme-right-column button:hover {
+    opacity: 0.9;
+}
+
+.flexcolumn .right-column :nth-child(4), .flexcolumn .theme-right-column :nth-child(4) {
+    margin: 10px 0;
+}
+
+.real-price a {
+    font-size: 17px;
+    text-decoration: none;
+    color: var(--primary-color);
+    display: flex;
+}
+
+.real-price sup {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.flexcolumn .real-price a {
+    font-size: 24px;
+}
+
+.flexcolumn .real-price sup {
+    font-size: 17px;
+}
+
+.discountt {
+    display: flex;
+}
+
+.on-sale {
+    display: flex;
+    align-items: center;
+}
+
+.discountt span {
+    font-size: 15px;
+    color: #848484;
+    text-decoration: line-through;
+}
+
+.discountt sup{
+    font-size: 11px;
+    margin-left: 5px;
+    color: #848484;
+}
+
+.minus span{
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0 5px 1px 5px;
+}
+
+.minus span{
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0 5px 1px 5px;
+}
+
+.new-game span{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgb(98, 2, 234);
+    color: #fff;
+    padding: 0 5px 1px 5px;
+}
+
+@media(max-width:740px){
+    #pc {
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 650px) {
+    /*.flexcolumn .title-column .content {
+        display: none;
+    }*/
+
+    .title-column a .theme-title-column a {
+        display: none;
+    }
+
+    .flexcolumn .right-column .game_name, .flexcolumn .theme-right-column .game_name{
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    .flexcolumn .right-column .game_name a{
+        text-transform: none;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .flexcolumn .theme-right-column .game_name a{
+        text-transform: none;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .flexcolumn .right-column, .flexcolumn .theme-right-column {
+        max-width: 165px;
+        padding: 0;
+    }
+
+    .flexcolumn .right-column :nth-child(4), .flexcolumn .theme-right-column :nth-child(4) {
+        margin: 15px 0;
+    }
+}
+
+@media(max-width:600px){
+    #pc {
+        justify-content: left;
+    }
+}

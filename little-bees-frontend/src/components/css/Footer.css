@@ -1,0 +1,170 @@
+footer {
+    width: 100%;
+    background: #f0f0f0;
+    border-top: 2px #fff solid;
+    box-shadow: inset 0 1px #ddd;
+    margin-top: 40px;
+}
+
+.theme-footer {
+    width: 100%;
+    background: #0f0f0f;
+    border-top: 2px #000 solid;
+    box-shadow: inset 0 1px #222;
+    margin-top: 40px;
+}
+
+.footer-main {
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left p,
+.footer-right p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: none;
+    text-align: left;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    color: #000;
+}
+
+.theme-footer-left p,
+.theme-footer-right p {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: none;
+    text-align: left;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.social-media i,
+.mastercard img {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.theme-social-media i {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.social-media .fa-facebook-square:hover, .theme-social-media .fa-facebook-square:hover{
+    transform: scale(1.1);
+    color: #3b5998;
+}
+
+.social-media .fa-instagram:hover, .theme-social-media .fa-instagram:hover {
+    transform: scale(1.1);
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+}
+
+.social-media .fa-twitter:hover, .theme-social-media .fa-twitter:hover {
+    transform: scale(1.1);
+    color: #1da1f2;
+}
+
+.social-media .fa-youtube:hover, .theme-social-media .fa-youtube:hover {
+    transform: scale(1.1);
+    color: #ff0000;
+}
+
+.social-media .fa-linkedin-in:hover, .theme-social-media .fa-linkedin-in:hover {
+    transform: scale(1.1);
+    color: #0e76a8;
+}
+
+.social-media .fa-twitch:hover, .theme-social-media .fa-twitch:hover {
+    transform: scale(1.1);
+    color: #6441a5;
+}
+
+.footer-main-bottom {
+    width: 100%;
+    border-top: 2px #eee solid;
+    box-shadow: inset 0 1px #ddd;
+}
+
+.theme-footer-main-bottom {
+    width: 100%;
+    border-top: 2px #111 solid;
+    box-shadow: inset 0 1px #2e2e2e;
+}
+
+.footer-bottom, .theme-footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom p {
+    font-size: 17px;
+    font-weight: none;
+    margin-right: 20px;
+    color: #000;
+}
+
+.theme-footer-bottom p{
+    font-size: 17px;
+    font-weight: none;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.footer-bottom a, .theme-footer-bottom a{
+    font-size: 17px;
+    color: rgb(98, 2, 234);
+    text-decoration: none;
+}
+
+.footer-bottom span:hover, .theme-footer-bottom span:hover {
+    color: rgb(57, 0, 136);
+}
+
+@media(max-width: 750px) {
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media i, .theme-social-media i {
+        margin-right: 0;
+    }
+
+    .social-media, .theme-social-media {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .mastercard img {
+        margin-right: 10px;
+    }
+}
+
+@media(max-width: 600px) {
+    .footer-bottom, .theme-footer-bottom {
+        justify-content: space-around;
+    }
+
+    .footer-bottom p, .theme-footer-bottom p,
+    .footer-bottom a, .theme-footer-bottom a {
+        font-size: 14px;
+        margin: 0;
+    }
+}

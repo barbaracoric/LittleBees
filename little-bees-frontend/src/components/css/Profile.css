@@ -1,0 +1,77 @@
+.main-container .container {
+    background-color: #eee;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.theme-main-container .container {
+    background-color: #111;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.main-container .container p {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 0;
+    color: #000;
+}
+
+.main-container .container p span, .theme-main-container .container p span {
+    text-transform: none;
+}
+
+.theme-main-container .container p {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 0;
+    color: #fff;
+}
+
+.main-container .container button {
+    border: none;
+    outline: none;
+    background: #333;
+    padding: 10px 0;
+    display: block;
+    cursor: pointer;
+    width: 165px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.theme-main-container .container button {
+    border: none;
+    outline: none;
+    background: #ccc;
+    padding: 10px 0;
+    display: block;
+    cursor: pointer;
+    width: 165px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.main-container .container a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 0;
+}
+
+.theme-main-container .container a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 0;
+}

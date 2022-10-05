@@ -1,0 +1,155 @@
+.address-section span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    width: 100%;
+}
+
+.theme-address-section span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    width: 100%;
+}
+
+.address-section .firstt, .theme-address-section .firstt,
+.address-section .secondd, .theme-address-section .secondd,
+.address-section .thirdd, .theme-address-section .thirdd {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-section .labell p{
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.theme-address-section .labell p{
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+    color: #000; /*need #fff*/
+}
+
+.address-section .firstt :first-child input, .theme-address-section .firstt :first-child input,
+.address-section .firstt :nth-child(2) input, .theme-address-section .firstt :nth-child(2) input,
+.address-section .secondd :first-child input, .theme-address-section .secondd :first-child input,
+.address-section .secondd :nth-child(2) input, .theme-address-section .secondd :nth-child(2) input,
+.address-section .thirdd :first-child input, .theme-address-section .thirdd :first-child input,
+.address-section .thirdd :nth-child(2) input, .theme-address-section .thirdd :nth-child(2) input {
+    width: 265px;
+}
+
+.address-section .labell input {
+    padding: 9px 15px;
+    background-color: #f8f8f8;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 2px;
+    margin-bottom: 10px;
+    color: #000;
+    width: 50%;
+}
+
+.theme-address-section .labell input {
+    padding: 9px 15px;
+    background-color: #181818;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 2px;
+    margin-bottom: 10px;
+    color: #000;
+    width: 50%;
+}
+
+.address-section .address-input input, .theme-address-section .address-input input {
+    width: 100%;
+}
+
+.address-section .address-input .labell, .theme-address-section .address-input .labell {
+    margin-top: 15px;
+}
+
+.address-section form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #000;
+}
+
+.theme-address-section form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #000; /*need #fff*/
+}
+
+.address-section form input, .theme-address-section form input {
+    margin-right: 5px;
+}
+
+.login-footer {
+    height: 60px;
+    border-top: 2px #fff solid;
+    box-shadow: inset 0 1px #ddd;
+    /*position: absolute;*/
+    z-index: 1;
+    background-color: #f0f0f0;
+    text-align: center;
+    /*bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; */
+    /*position: relative; */
+}
+
+.theme-login-footer {
+    height: 60px;
+    border-top: 2px #000 solid;
+    box-shadow: inset 0 1px #222;
+    /*position: absolute;*/
+    z-index: 1;
+    background-color: #0f0f0f;
+    text-align: center;
+    /*bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;*/
+    /*position: relative;*/ 
+}
+
+.login-footer p {
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: #000;
+}
+
+.theme-login-footer p{
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: #fff;
+}
+
+@media(max-width: 600px) {
+    .address-section .firstt :first-child input, .theme-address-section .firstt :first-child input,
+    .address-section .firstt :nth-child(2) input, .theme-address-section .firstt :nth-child(2) input,
+    .address-section .secondd :first-child input, .theme-address-section .secondd :first-child input,
+    .address-section .secondd :nth-child(2) input, .theme-address-section .secondd :nth-child(2) input,
+    .address-section .thirdd :first-child input, .theme-address-section .thirdd :first-child input,
+    .address-section .thirdd :nth-child(2) input, .theme-address-section .thirdd :nth-child(2) input {
+    width: 200px;
+}
+}
