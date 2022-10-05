@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7cfbeca0.chunk.css",
+    "main.js": "/static/js/main.f5736342.chunk.js",
+    "main.js.map": "/static/js/main.f5736342.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0c658b5e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0c658b5e.js.map",
+    "static/js/2.8e456650.chunk.js": "/static/js/2.8e456650.chunk.js",
+    "static/js/2.8e456650.chunk.js.map": "/static/js/2.8e456650.chunk.js.map",
+    "static/js/3.a21cdbe0.chunk.js": "/static/js/3.a21cdbe0.chunk.js",
+    "static/js/3.a21cdbe0.chunk.js.map": "/static/js/3.a21cdbe0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7cfbeca0.chunk.css.map": "/static/css/main.7cfbeca0.chunk.css.map",
+    "static/js/2.8e456650.chunk.js.LICENSE.txt": "/static/js/2.8e456650.chunk.js.LICENSE.txt",
+    "static/media/logoo.51219c8a.png": "/static/media/logoo.51219c8a.png",
+    "static/media/logoo2.2da80578.png": "/static/media/logoo2.2da80578.png",
+    "static/media/medd-1.0de9cc3f.jpeg": "/static/media/medd-1.0de9cc3f.jpeg",
+    "static/media/medd-2.9ac76a14.jpeg": "/static/media/medd-2.9ac76a14.jpeg",
+    "static/media/medd-3.83d3828f.jpeg": "/static/media/medd-3.83d3828f.jpeg",
+    "static/media/medd-4.57fd4e5a.jpeg": "/static/media/medd-4.57fd4e5a.jpeg",
+    "static/media/medd.de762070.jpg": "/static/media/medd.de762070.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c658b5e.js",
+    "static/js/2.8e456650.chunk.js",
+    "static/css/main.7cfbeca0.chunk.css",
+    "static/js/main.f5736342.chunk.js"
+  ]
+}
